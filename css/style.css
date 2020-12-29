@@ -25,3 +25,11 @@ footer {
     font-weight: 700;
     flex-shrink: 0;
 }
+
+h3 {
+    width: 101.75%;
+    color: #ffffff;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10%;
+}
