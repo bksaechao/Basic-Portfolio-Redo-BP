@@ -44,12 +44,30 @@
         <div class="row">
             <h1 class="border-bottom border-3 pb-4 mb-4">Contact</h1>
         </div>
+        <form>
+            <div>
+                <lable for="name" class="form-label">Name</lable>
+                <input type="name" class="form-control" id="nameInput" required="required">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailInput" aria-describedy="email" required="required">
+                <div id="email" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <lable for="message" class="form-label">Message</lable>
+                <textarea id="message" class="form-control" placeholder="Message..." rows="5" required="required"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </div>
     <!-- Main Section End -->
 
     <!-- Footer Start -->
     <footer class="border-top border-5 border-primary text-center bg-dark">
-        <div class="container-fluid p-2">Copyright &copy;</div>
+        <div class="container-fluid p-3">Copyright &copy;</div>
     </footer>
     <!-- Footer End -->
 
