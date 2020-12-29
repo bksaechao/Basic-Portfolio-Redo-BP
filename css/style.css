@@ -1,3 +1,8 @@
 .container-md {
     max-width: 960px;
 }
+
+.container-fluid {
+    max-width: 960px;
+    width: 100%;
+}
