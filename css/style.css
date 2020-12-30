@@ -27,9 +27,14 @@ footer {
 }
 
 h3 {
-    width: 101.75%;
+    width: 100%;
     color: #ffffff;
     font-size: 18px;
     position: absolute;
     bottom: 10%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
