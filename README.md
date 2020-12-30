@@ -24,7 +24,12 @@
 ### *(Follow up notes)*
 <ul>
   <li>
+    Much cleaner and efficient code!
   </li>
   <li>
+    Design was much closer to the homework assignment than my previous attempt
+  </li>
+  <li>
+    Understood and felt significantly more confident about the assignment this time around!
   </li>
 </ul>
