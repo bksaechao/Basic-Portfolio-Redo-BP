@@ -34,3 +34,6 @@ h3 {
     position: absolute;
     bottom: 10%;
 }
+#place-img {
+    height: auto;
+}
