@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    color: #777777;
 }
 /* Sticky footer method */
 body {
@@ -8,8 +9,7 @@ body {
     flex-direction: column;
 }
 /* Centering the container */
-.container-md,
-.container-fluid {
+.container {
     max-width: 960px;
     width: 100%;
 }
@@ -30,11 +30,49 @@ footer {
 h3 {
     width: 100%;
     color: #ffffff;
+    background: #4aaaa5;
     font-size: 18px;
     position: absolute;
     bottom: 10%;
 }
 #place-img,
 .img-fluid {
-    height: auto;
+    height: auto; /* Used for the .img-fluid class for responsiveness */
+}
+
+nav {
+    background: #ffffff;
+    z-index: 99;
+}
+/* Styling to replicate previous assignments layout */
+a.navbar-brand {
+    background: #4aaaa5;
+    color: #ffffff !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+a.nav-link {
+    color: #777777;
+    font-size: 18px;
+    border-left: 1px solid #efefef;
+}
+a.active {
+    border-left: none;
+}
+h2 {
+    color: #4aaaa5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+button.btn {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+footer {
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+#hidden-project {
+    visibility: hidden;
 }
