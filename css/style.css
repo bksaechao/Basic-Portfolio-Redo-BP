@@ -2,39 +2,35 @@ html,
 body {
     height: 100%;
 }
-
+/* Sticky footer method */
 body {
     display: flex;
     flex-direction: column;
 }
-
+/* Centering the container */
 .container-md,
 .container-fluid {
     max-width: 960px;
     width: 100%;
 }
-
 .main-content {
-    flex: 1 0 auto;
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting
+    these items shrink to smaller than their content's default minimum
+    size. */
 }
-
 footer {
     height: 60px;
     color: #fff;
     font-size: .75em;
     font-weight: 700;
-    flex-shrink: 0;
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting
+    these items shrink to smaller than their content's default minimum
+    size. */
 }
-
 h3 {
     width: 100%;
     color: #ffffff;
     font-size: 18px;
     position: absolute;
     bottom: 10%;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
 }
