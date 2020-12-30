@@ -21,6 +21,12 @@
 </li>
 </ul>
 
+<p float="left">
+<img src="images/portfolio-about-me.png" height="250" width="400" alt="portfolio">
+<img src="images/portfolio-gallery.png" height="250" width="400" alt="projects">
+<img src="images/portfolio-contact.png" height="250" width="400" alt="contact">
+</p>
+
 ### *(Follow up notes)*
 <ul>
   <li>
